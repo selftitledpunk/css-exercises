@@ -1,0 +1,18 @@
+/* The first element a black background and white text
+* The second element a yellow background
+* Both elements: a font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback */
+
+.click,
+.no-click{
+  font-size: 28px;
+  font-family: 'Helvetica', 'Times New Roman', sans-serif;
+}
+
+.click{
+  background-color: rgb(0, 0, 0);
+  color: #FFFFFF;
+}
+
+.no-click{
+  background-color: #ffff00;
+}
